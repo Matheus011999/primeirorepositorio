@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOS</title>
+    <style>
+        /* Define o estilo básico para todo o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: #f4f4f4; /* Define a cor de fundo */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 1em 0; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Alinhamento do texto centralizado */
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    padding: 1em; /* Espaçamento interno do contêiner */
+}
+
+/* Estilo para o conteúdo principal */
+.content {
+    background-color: #fff; /* Cor de fundo do conteúdo */
+    padding: 2em; /* Espaçamento interno do conteúdo */
+    margin: 1em 0; /* Margem superior e inferior do conteúdo */
+    border-radius: 8px; /* Raio da borda do conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilo para os parágrafos dentro do conteúdo */
+.content p {
+    font-weight: bold; /* Texto em negrito */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilo para imagens */
+img {
+    width: 300px; /* Largura máxima das imagens */
+}
+
+/* Estilo para a legenda */
+.legend {
+    margin-bottom: 15px; /* Margem inferior da legenda */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    text-align: center; /* Alinhamento do texto centralizado */
+    padding: 1em 0; /* Espaçamento interno do rodapé */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Alinhamento na parte inferior */
+}
+
+/* Media query para telas maiores que 768px */
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px; /* Largura máxima do contêiner */
+        margin: 0 auto; /* Centraliza o contêiner na tela */
+    }
+    footer img {
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+    <div>class="header--search"></div>
+        <h1>Pizzaria Sousa</h1>
+        <div class="header--right"><div class="header--Pesquise">
+                
+            <form>
+                <input type="text" name="Pesquise" placeholder="Pesquise" />
+                <button>
+                    <img src="./assets/loupe.png" />
+                        </button>
+    </header>
+    <main class="container">
+       <center> <h3>A melhor Pizza de samambaia</h3>
+        <section class="content">
+            <!-- Conteúdo principal aqui -->
+            <div class="photo-types">
+                <div class="photo-type">
+                    <img src="./assets/pizza.png"
+                        alt="Fotografia de Paisagem">
+                    <p>Localizado na Samambaia Sul</p>
+                    <div class="legend">A cidade precisa de uma pizzaria comprometida para entender e atender os nosso clientes, estamos chegando para comprir essa missão.</div>
+                </div>
+                <div class="photo-type">
+                    <img src="./assets/avião.png"
+                        alt="Fotografia de Retrato">
+                    <p>Qualidade, Rapidez E Segurança</p>
+                    <div class="legend">Estamos atendendo nas regiões perto, o mais rapido possivel e com responsabilidade com os clientes.</div>
+                </div>
+                <div class="photo-type">
+                    <img src="./assets/pizza001.png"
+                        alt="Fotografia Macro">
+                    <p>Atendimento qualificado</p>
+                    <div class="legend">Se preferir desfrutar de nossas pizzas no conforto de sua casa, aproveite nosso serviço de delivery rápido e eficiente. Ou, se estiver passando, faça um pedido para viagem e leve o sabor da Pizzaria Delícia com você..</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <img src="./assets/pizzaria sousa.png" alt="">
+        <p>&copy; Endereço: QR 512 - Samambaia, Brasília - DF, 72312-808
+        </p>
+    </footer>
+</body>
+
+</html>
