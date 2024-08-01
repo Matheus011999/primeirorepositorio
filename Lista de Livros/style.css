@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #cacdcf;
+    background: url('assets/livro.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+ul :hover {
+    color: rgb(33, 182, 228);
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #e9e4e4;
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+h1 {
+    color: #eaeef3;
+}
+
